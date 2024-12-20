@@ -8,11 +8,11 @@ struct Dang{
 int main(){
 	int id;
 	struct Dang m[50]={
-		{ "nguyen Hai Dangw", 18, "123456"},
-		{ "Nguyen Trung kien", 18, "234567"}, 
+		{ "nguyen Hai Dang",21 , "123456"},
+		{ "Nguyen Trung kien", 19, "234567"}, 
 		{ "Pham Thanh Tung", 18, "345678"}, 
-		{ "Nguyen Tu Anh", 18, "456789"}, 
-		{ "Nguyen Le thuy tien", 18, "012345"}
+		{ "Nguyen Tu Anh", 21, "456789"}, 
+		{ "Nguyen Le thuy tien", 21, "012345"}
 	};
 	for (int i=0; i<5; i++){
 		printf ("sinh vien thu %d\n",i+1);
